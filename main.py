@@ -5,7 +5,7 @@ def count_batteries_by_health(present_capacities):
         "failed": 0
     }
     
-    rated_capacity = 120
+    rated_capacity = 12
 
     for i in present_capacities:
         soh = 100 * i / rated_capacity
